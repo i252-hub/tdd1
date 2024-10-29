@@ -1,7 +1,5 @@
-const add = require('./index');
-const subtract = require('./index');
-const multiply = require('./index');
-const divide = require('./index');
+const {add, multiply, subtract, divide} = require('./index');
+
 
 test('adds 1 + 2 to equal 3', () => {
     expect(add(1, 2)).toBe(3);
